@@ -6,36 +6,49 @@ import practice.maven.utils.ShapeUtils;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 
 public class Main {
   public static void main(String[] args) {
-    try {
-      // 1. Создаём фигуры через фабрику (из модуля Utils)
-      Shape circle = ShapeFactory.createCircle(5);
-      Shape rectangle = ShapeFactory.createRectangle(4, 7);
-      Shape triangle = ShapeFactory.createTriangle(3, 4, 5);
+    // Создаём фигуры
+    Shape circle = ShapeFactory.createCircle(5);
+    Shape rectangle = ShapeFactory.createRectangle(4, 7);
+    Shape triangle = ShapeFactory.createTriangle(3, 4, 5);
+    Shape bigCircle = ShapeFactory.createCircle(10);
 
-      // 2. Помещаем их в список
-      List<Shape> shapes = Arrays.asList(circle, rectangle, triangle);
+    List<Shape> shapes = Arrays.asList(circle, rectangle, triangle, bigCircle);
 
-      // 3. Выводим все фигуры (используем метод toString из ShapeUtils)
-      System.out.println("Все фигуры:");
-      System.out.println(ShapeUtils.toString(shapes));
+    // 1. Вывод всех фигур
+    System.out.println("=== Все фигуры ===");
+    System.out.println(ShapeUtils.toString(shapes));
 
-      // 4. Вычисляем и выводим суммарную площадь и периметр
-      System.out.printf("Суммарная площадь: %.2f%n", ShapeUtils.totalArea(shapes));
-      System.out.printf("Суммарный периметр: %.2f%n", ShapeUtils.totalPerimeter(shapes));
+    // 2. Суммарная площадь и периметр
+    System.out.printf("Суммарная площадь: %.2f%n", ShapeUtils.totalArea(shapes));
+    System.out.printf("Суммарный периметр: %.2f%n", ShapeUtils.totalPerimeter(shapes));
 
-      // 5. Находим фигуру с максимальной площадью
-      Shape maxShape = ShapeUtils.maxArea(shapes);
-      System.out.println("Фигура с максимальной площадью: " + maxShape);
+    // 3. Средняя площадь
+    System.out.printf("Средняя площадь: %.2f%n", ShapeUtils.averageArea(shapes));
 
-      // 6. Фильтрация: оставляем только круги
-      List<Shape> circles = ShapeUtils.filter(shapes, s -> s.getClass().getSimpleName().equals("Circle"));
-      System.out.println("Только круги: " + circles);
+    // 4. Фигура с минимальной и максимальной площадью
+    System.out.println("Минимальная площадь: " + ShapeUtils.minArea(shapes));
+    System.out.println("Максимальная площадь: " + ShapeUtils.maxArea(shapes));
 
-    } catch (IllegalArgumentException e) {
-      System.err.println("Ошибка: " + e.getMessage());
-    }
+    // 5. Группировка по типу
+    Map<Class<?>, List<Shape>> grouped = ShapeUtils.groupByType(shapes);
+    System.out.println("Группировка по типу:");
+    grouped.forEach((clazz, list) ->
+        System.out.println("  " + clazz.getSimpleName() + ": " + list.size() + " шт."));
+
+    // 6. Сортировка по площади
+    System.out.println("Сортировка по площади (возрастание):");
+    ShapeUtils.sortByArea(shapes).forEach(System.out::println);
+
+    // 7. Проверка наличия фигуры с площадью > 100
+    boolean hasLarge = ShapeUtils.hasAreaGreaterThan(shapes, 100);
+    System.out.println("Есть фигура с площадью > 100? " + hasLarge);
+
+    // 8. Суммарная площадь только кругов
+    double totalCircleArea = ShapeUtils.totalAreaFiltered(shapes, s -> s.getClass().getSimpleName().equals("Circle"));
+    System.out.printf("Суммарная площадь кругов: %.2f%n", totalCircleArea);
   }
 }
