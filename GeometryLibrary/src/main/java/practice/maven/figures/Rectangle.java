@@ -29,12 +29,4 @@ public class Rectangle extends AbstractShape {
   public double getPerimeter() {
     return 2 * (width + height);
   }
-
-  public double getWidth() {
-    return width;
-  }
-
-  public double getHeight() {
-    return height;
-  }
 }

@@ -26,8 +26,4 @@ public class Circle extends AbstractShape {
   public double getPerimeter() {
     return 2 * Math.PI * radius;
   }
-
-  public double getRadius() {
-    return radius;
-  }
 }

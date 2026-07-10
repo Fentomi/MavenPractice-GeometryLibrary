@@ -45,16 +45,4 @@ public class Triangle extends AbstractShape {
   public double getPerimeter() {
     return sideA + sideB + sideC;
   }
-
-  public double getSideA() {
-    return sideA;
-  }
-
-  public double getSideB() {
-    return sideB;
-  }
-
-  public double getSideC() {
-    return sideC;
-  }
 }
