@@ -6,11 +6,6 @@ package practice.maven.core;
 public class Cube implements Shape3D {
   private final double side;
 
-  /**
-   * Конструктор куба.
-   * @param side длина ребра (должна быть > 0)
-   * @throws IllegalArgumentException если side <= 0
-   */
   public Cube(double side) {
     if (side <= 0) {
       throw new IllegalArgumentException("Длина ребра должна быть положительной.");
@@ -32,9 +27,17 @@ public class Cube implements Shape3D {
     return side;
   }
 
+  /**
+   * Вычисляет длину пространственной диагонали куба.
+   * @return длина диагонали = side * √3
+   */
+  public double getDiagonal() {
+    return side * Math.sqrt(3);
+  }
+
   @Override
   public String toString() {
-    return String.format("Cube {side=%.2f, volume=%.2f, surface=%.2f}",
-        side, getVolume(), getSurfaceArea());
+    return String.format("Cube {side=%.2f, volume=%.2f, surface=%.2f, diagonal=%.2f}",
+        side, getVolume(), getSurfaceArea(), getDiagonal());
   }
 }
