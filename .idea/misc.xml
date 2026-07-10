@@ -6,6 +6,8 @@
       <list>
         <option value="$PROJECT_DIR$/GeometryApp/pom.xml" />
         <option value="$PROJECT_DIR$/GeometryLibrary/pom.xml" />
+        <option value="$PROJECT_DIR$/GeometryLibrary/GeometryUtils/pom.xml" />
+        <option value="$PROJECT_DIR$/GeometryLibrary/GeometryCore/pom.xml" />
       </list>
     </option>
   </component>

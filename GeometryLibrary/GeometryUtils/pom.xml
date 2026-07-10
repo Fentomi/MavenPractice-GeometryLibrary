@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>practice.maven.utils</groupId>
+  <artifactId>GeometryUtils</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <parent>
+    <groupId>practice.maven</groupId>
+    <artifactId>GeometryLibrary</artifactId>
+    <version>1.0.0</version>
+  </parent>
+
+  <dependencies>
+    <dependency>
+      <groupId>practice.maven.core</groupId>
+      <artifactId>GeometryCore</artifactId>
+      <version>${project.parent.version}</version>
+    </dependency>
+  </dependencies>
+</project>

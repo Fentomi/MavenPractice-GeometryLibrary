@@ -1,4 +1,4 @@
-package practice.maven;
+package practice.maven.core;
 
 public abstract class AbstractShape implements Shape {
   @Override

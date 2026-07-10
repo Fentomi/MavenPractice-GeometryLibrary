@@ -8,10 +8,15 @@
 
   <dependencies>
     <dependency>
-      <groupId>practice.maven</groupId>
-      <artifactId>GeometryLibrary</artifactId>
+      <groupId>practice.maven.core</groupId>
+      <artifactId>GeometryCore</artifactId>
       <version>1.0.0</version>
-      <scope>compile</scope>
     </dependency>
+    <dependency>
+      <groupId>practice.maven.utils</groupId>
+      <artifactId>GeometryUtils</artifactId>
+      <version>1.0.0-SNAPSHOT</version>
+    </dependency>
+
   </dependencies>
 </project>

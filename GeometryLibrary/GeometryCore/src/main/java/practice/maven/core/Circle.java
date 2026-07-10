@@ -1,6 +1,4 @@
-package practice.maven.figures;
-
-import practice.maven.AbstractShape;
+package practice.maven.core;
 
 public class Circle extends AbstractShape {
   private final double radius;

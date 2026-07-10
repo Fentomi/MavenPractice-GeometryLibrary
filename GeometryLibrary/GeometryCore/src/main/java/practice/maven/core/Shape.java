@@ -1,6 +1,6 @@
-package practice.maven;
+package practice.maven.core;
 
-interface Shape {
+public interface Shape {
   /**
    * Возвращает площадь фигуры.
    * @return площадь как double
