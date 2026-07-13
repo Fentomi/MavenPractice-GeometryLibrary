@@ -1,4 +1,6 @@
-GeometryApp/target
-GeometryLibrary/GeometryCore/target
-GeometryLibrary/GeometryUtils/target
-GeometryLibrary/ThreeDimensionalShapes/target
+MavenPractice/GeometryApp/target
+MavenPractice/GeometryLibrary/GeometryCore/target
+MavenPractice/GeometryLibrary/GeometryUtils/target
+MavenPractice/GeometryLibrary/ThreeDimensionalShapes/target
+
+StreamPractice/CollectionMapping/target
