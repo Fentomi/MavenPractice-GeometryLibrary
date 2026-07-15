@@ -4,96 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1917fad8-360e-4f96-8cc5-ba38801dcc56" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/.idea/MavenPractice-GeometryLibrary.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryApp/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryApp/src/main/java/practice/maven/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryApp/src/main/java/practice/maven/Main3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryApp/target/classes/practice/maven/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryApp/target/classes/practice/maven/Main3D.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryApp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryApp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/GeometryCore/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/GeometryCore/src/main/java/practice/maven/core/AbstractShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/GeometryCore/src/main/java/practice/maven/core/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/GeometryCore/src/main/java/practice/maven/core/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/GeometryCore/src/main/java/practice/maven/core/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/GeometryCore/src/main/java/practice/maven/core/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/GeometryCore/target/GeometryCore-1.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/GeometryCore/target/classes/practice/maven/core/AbstractShape.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/GeometryCore/target/classes/practice/maven/core/Circle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/GeometryCore/target/classes/practice/maven/core/Rectangle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/GeometryCore/target/classes/practice/maven/core/Shape.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/GeometryCore/target/classes/practice/maven/core/Triangle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/GeometryCore/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/GeometryCore/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/GeometryCore/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/GeometryUtils/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/GeometryUtils/src/main/java/practice/maven/utils/ShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/GeometryUtils/src/main/java/practice/maven/utils/ShapeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/GeometryUtils/target/GeometryUtils-1.1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/GeometryUtils/target/classes/practice/maven/utils/ShapeFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/GeometryUtils/target/classes/practice/maven/utils/ShapeUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/GeometryUtils/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/GeometryUtils/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/GeometryUtils/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/ThreeDimensionalShapes/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/ThreeDimensionalShapes/src/main/java/practice/maven/core/Cone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/ThreeDimensionalShapes/src/main/java/practice/maven/core/Cube.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/ThreeDimensionalShapes/src/main/java/practice/maven/core/Cylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/ThreeDimensionalShapes/src/main/java/practice/maven/core/Shape3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/ThreeDimensionalShapes/src/main/java/practice/maven/core/Sphere.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/ThreeDimensionalShapes/target/ThreeDimensionalShapes-1.1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/ThreeDimensionalShapes/target/classes/practice/maven/core/Cone.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/ThreeDimensionalShapes/target/classes/practice/maven/core/Cube.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/ThreeDimensionalShapes/target/classes/practice/maven/core/Cylinder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/ThreeDimensionalShapes/target/classes/practice/maven/core/Shape3D.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/ThreeDimensionalShapes/target/classes/practice/maven/core/Sphere.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/ThreeDimensionalShapes/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/ThreeDimensionalShapes/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/ThreeDimensionalShapes/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenPractice/GeometryLibrary/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StreamPractice/CollectionMapping/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StreamPractice/CollectionMapping/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StreamPractice/CollectionMapping/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StreamPractice/CollectionMapping/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StreamPractice/CollectionMapping/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StreamPractice/CollectionMapping/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StreamPractice/CollectionMapping/src/main/java/stream/pr1/CollectionMapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StreamPractice/CollectionMapping/src/main/java/stream/pr1/Function.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StreamPractice/CollectionMapping/target/classes/stream/pr1/CollectionMapping.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StreamPractice/CollectionMapping/target/classes/stream/pr1/Function.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeometryApp/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeometryApp/src/main/java/practice/maven/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeometryApp/src/main/java/practice/maven/Main3D.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeometryLibrary/GeometryCore/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeometryLibrary/GeometryCore/src/main/java/practice/maven/core/AbstractShape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeometryLibrary/GeometryCore/src/main/java/practice/maven/core/Circle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeometryLibrary/GeometryCore/src/main/java/practice/maven/core/Rectangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeometryLibrary/GeometryCore/src/main/java/practice/maven/core/Shape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeometryLibrary/GeometryCore/src/main/java/practice/maven/core/Triangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeometryLibrary/GeometryUtils/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeometryLibrary/GeometryUtils/src/main/java/practice/maven/utils/ShapeFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeometryLibrary/GeometryUtils/src/main/java/practice/maven/utils/ShapeUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeometryLibrary/ThreeDimensionalShapes/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeometryLibrary/ThreeDimensionalShapes/src/main/java/practice/maven/core/Cone.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeometryLibrary/ThreeDimensionalShapes/src/main/java/practice/maven/core/Cube.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeometryLibrary/ThreeDimensionalShapes/src/main/java/practice/maven/core/Cylinder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeometryLibrary/ThreeDimensionalShapes/src/main/java/practice/maven/core/Shape3D.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeometryLibrary/ThreeDimensionalShapes/src/main/java/practice/maven/core/Sphere.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeometryLibrary/pom.xml" beforeDir="false" />
+    <list default="true" id="1917fad8-360e-4f96-8cc5-ba38801dcc56" name="Changes" comment="Реструктуризация репозитория + практическое по StreamAPI (arrayMapping).">
+      <change afterPath="$PROJECT_DIR$/JavaCorePractice/StringBuilder/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaCorePractice/StringBuilder/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaCorePractice/StringBuilder/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaCorePractice/StringBuilder/src/main/java/practice/javacore/stringbuilder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaCorePractice/StringBuilder/src/main/java/practice/javacore/stringbuilder/MyStringBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MavenPractice-GeometryLibrary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MavenPractice-GeometryLibrary.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,6 +60,19 @@
       <option name="presentableId" value="Default" />
       <updated>1783931653584</updated>
     </task>
+    <task id="LOCAL-00001" summary="Реструктуризация репозитория + практическое по StreamAPI (arrayMapping).">
+      <option name="closed" value="true" />
+      <created>1783934596014</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1783934596014</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Реструктуризация репозитория + практическое по StreamAPI (arrayMapping)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Реструктуризация репозитория + практическое по StreamAPI (arrayMapping)." />
   </component>
 </project>
